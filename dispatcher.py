@@ -66,7 +66,7 @@ while True:
             # Get the URL Key (string ID)
             room_url_key = room.get("url_key") or room.get("room_id") 
             if not room_url_key:
-                print(f"ERROR: Could not find valid URL Key for room ID {room.get('id', 'N/A')}. Skipping.")
+                #print(f"ERROR: Could not find valid URL Key for room ID {room.get('id', 'N/A')}. Skipping.")
                 continue
 
             # Fetch the latest live status
